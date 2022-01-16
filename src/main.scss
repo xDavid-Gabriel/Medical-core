@@ -49,8 +49,12 @@ body {
 }
 
 /*Medida viewports*/
+
 .min-vh-80 {
   min-height: 80vh;
+}
+.min-vh-70 {
+  min-height: 70vh;
 }
 
 /*Tipografias*/
@@ -58,6 +62,17 @@ body {
   line-height: 0;
 }
 
+/*Medida viewports*/
+@media (min-width: 768px) {
+  /*Flex*/
+  .flex-column-md-row {
+    flex-direction: row !important;
+  }
+  /*Medida viewports*/
+  .w-md-60 {
+    width: 60% !important;
+  }
+}
 /*navegacion fija*/
 @media (min-width: 992px) {
   .fixed-lg-top {

@@ -30,36 +30,6 @@
   transform: translate(-50%, 0);
 }
 
-@media (min-width: 768px) {
-  .doctora {
-    max-width: 300px;
-    bottom: -50px;
-  }
-  .alos {
-    max-width: 300px;
-  }
-}
-
-@media (min-width: 992px) {
-  .doctora {
-    max-width: 350px;
-    bottom: -130px;
-  }
-  .alos {
-    bottom: -100px;
-  }
-}
-@media (min-width: 1400px) {
-  .doctora {
-    max-width: 450px;
-    bottom: -150px;
-  }
-  .alos {
-    max-width: 400px;
-    bottom: -100px;
-  }
-}
-
 /*Seccion-2*/
 
 .tarjeta {
@@ -92,4 +62,61 @@
   border-radius: 37px;
   width: 144.14px;
   height: 44px;
+}
+
+/*Seccion-6*/
+.tarjet {
+  background: white;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+}
+/*Seccion-7*/
+
+.suscribe {
+  bottom: -50px;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+
+/*Media querys*/
+
+@media (min-width: 768px) {
+  .doctora {
+    max-width: 300px;
+    bottom: -50px;
+  }
+  .alos {
+    max-width: 300px;
+  }
+  /*Seccion-7*/
+  .suscribe {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 992px) {
+  .doctora {
+    max-width: 350px;
+    bottom: -130px;
+  }
+  .alos {
+    bottom: -100px;
+  }
+}
+@media (min-width: 1400px) {
+  .doctora {
+    max-width: 450px;
+    bottom: -150px;
+  }
+  .alos {
+    max-width: 400px;
+    bottom: -100px;
+  }
 }
