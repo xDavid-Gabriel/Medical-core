@@ -1,0 +1,70 @@
+$theme-colors: (
+  "primary": hsla(185, 73%, 39%, 1),
+  "secondary": hsla(228, 28%, 20%, 1),
+  "success": hsla(0, 0%, 45%, 1),
+  "info": hsla(0, 77%, 58%, 1),
+  "danger": hsla(20, 100%, 97%, 1),
+  "warning": #f69b25,
+);
+
+//BOTONES
+$btn-border-radius: 5px;
+
+//LA NAVEGACION
+$navbar-light-color: hsla(228, 28%, 20%, 1);
+$navbar-light-toggler-border-color: none;
+$navbar-toggler-focus-width: 0;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700 !important;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.font-serif {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700 !important;
+  margin-bottom: 0;
+}
+.font-medium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+  margin-bottom: 0;
+}
+.font-body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/*Medida viewports*/
+.min-vh-80 {
+  min-height: 80vh;
+}
+
+/*Tipografias*/
+.line-height-0 {
+  line-height: 0;
+}
+
+/*navegacion fija*/
+@media (min-width: 992px) {
+  .fixed-lg-top {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+  }
+}

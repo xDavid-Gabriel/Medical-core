@@ -1,0 +1,95 @@
+/*Botones*/
+.join {
+  font-size: 14px;
+  width: 120px;
+  height: 45px;
+}
+
+.join:hover > .flecha {
+  transform: translateX(5px);
+  transition: transform 0.6s;
+}
+
+.learn {
+  width: 150px;
+}
+.learn:hover {
+  color: white !important;
+}
+/*Hero*/
+.doctora {
+  max-width: 200px;
+  bottom: -40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.alos {
+  max-width: 200px;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media (min-width: 768px) {
+  .doctora {
+    max-width: 300px;
+    bottom: -50px;
+  }
+  .alos {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .doctora {
+    max-width: 350px;
+    bottom: -130px;
+  }
+  .alos {
+    bottom: -100px;
+  }
+}
+@media (min-width: 1400px) {
+  .doctora {
+    max-width: 450px;
+    bottom: -150px;
+  }
+  .alos {
+    max-width: 400px;
+    bottom: -100px;
+  }
+}
+
+/*Seccion-2*/
+
+.tarjeta {
+  background: hsla(0, 0%, 100%, 1);
+  padding: 35px 40px 35px 40px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.1);
+}
+
+/*Seccion-4*/
+.sale {
+  left: 20px;
+  top: 20px;
+}
+.social {
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.text-gray {
+  color: #bdbdbd;
+}
+
+.reacciones {
+  cursor: pointer;
+}
+
+.btn-grande {
+  border: 2px solid #1ba0ab;
+  box-sizing: border-box;
+  border-radius: 37px;
+  width: 144.14px;
+  height: 44px;
+}
