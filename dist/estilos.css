@@ -120,3 +120,19 @@
     bottom: -100px;
   }
 }
+
+/*Animacion SVG*/
+.corazon {
+  cursor: pointer;
+}
+
+.corazon-pintado {
+  fill: red;
+}
+
+.corazon-pintado-2 {
+  fill: red;
+}
+/* .corazon-relleno:hover {
+  fill: red;
+} */
