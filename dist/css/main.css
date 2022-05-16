@@ -590,7 +590,6 @@ button:not(:disabled),
   .collapsing {
     transition: none;
   }
-
 }
 
 .nav {
@@ -1101,8 +1100,9 @@ body {
     position: fixed;
     top: 0px;
     right: 0px;
-  
     left: 0px;
     z-index: 1030;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
