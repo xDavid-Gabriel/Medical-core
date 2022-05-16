@@ -590,7 +590,7 @@ button:not(:disabled),
   .collapsing {
     transition: none;
   }
-  
+
 }
 
 .nav {
